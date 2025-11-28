@@ -1,7 +1,8 @@
 import React from "react";
 import { useState } from "react";
 
-const learnState = () => {
+
+const LearnState = () => {
 
     const [count, setCount] = useState<number>(0);
     const [email, setEmail] = useState<string>("enter your email");
@@ -11,6 +12,7 @@ const learnState = () => {
         <div>
             <h1>Learn State in React</h1>
             <button onClick={() => setCount(count + 1)}>increase</button>
+            <div>Count: {count}</div>
 
             <form>
                 <input 
@@ -31,4 +33,4 @@ const learnState = () => {
 
 }
 
-export default learnState;
+export default LearnState;

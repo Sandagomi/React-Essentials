@@ -1,11 +1,11 @@
-import state from "./components/state"
+import LearnState from "./components/state"
 import './App.css'
 
 function App() {
 
   return (
     <div>
-      <learnState />
+      <LearnState />
     </div>
   )
 }
